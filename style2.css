@@ -304,7 +304,7 @@ color: white;
 .main p{
     margin-top:20px;
     color:#8B5CF6;
-    margin-left:-20vw;
+    text-align:center;
     font-size:20px;
     font-weight:700 ;
 }
