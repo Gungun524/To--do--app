@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all page</title>
+    <link rel = "stylesheet" href="style2.css">
+    <link rel = "stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class = "main">
+        <br>
+        <br>
+        <br>
+     <div id = "date">
+        <p></p>
+        </div>
+        <h3 id = "tagline"><i></i></h3>
+     
+     
+     </div>
+     <div class = "maincontent">
+         <h3 id = "tagline"><i>"Dreams become reality when tasks become habits."</i></h3>
+        <input type = "text" id = "input" placeholder = "Add  a new task...">
+        <button id = "add"> Add</button>
+        
+        
+        <div  class = "navbar">
+            <a href = '#' class ="pages" >All</a>
+
+             <a href = '#' class = "pages" >Active</a>
+              <a href = '#' class ="pages">Completed</a>
+
+        </div>
+        <div class ="completed-message">
+          <i  id = "clipboard" class="fa-solid fa-clipboard-check"></i>
+          <h2  id ="emptyline"style="color: white;">  "🎉 All tasks completed!";</h2>
+           <h3 id ="completedline"><i>"Success is the sum of small efforts repeated daily.<sub>''</sub></i></h3> 
+            <a href = "all.html" ><button id = "start">Add a new Task</button></a>
+        </div>
+        <div class = "emptystate">
+            <i id = "clipboard" class="fa-solid fa-clipboard-list"></i>
+            <i id = "pen" class="fa-solid fa-pen-clip"></i>
+            <br>
+            <br>
+         
+         <h3 id ="emptyline"style ="color:white;"> "Your to do list is empty"</h3>
+         
+         <h3 id ="emptyline"style ="color:#8B5CF6;"><i>"The secret of getting ahead is getting started."</i></h3> 
+        
+         <hr style="opacity: 0.5; "> 
+
+        <a href = "all.html" ><button id = "start">Add Your First Task</button></a>
+        </div>
+        <div id = "todolist">
+            <br>
+            <br>
+            <hr  class ="line" style ="opacity:0.4; display: none;">
+            <div class= "list">
+                <ul >
+
+                </ul>
+            </div>
+            <br>
+            <hr class ="line" style = "opacity:0.4 ;display:none;">
+        </div>
+
+<div class="progress-container">
+    <div id="progress-bar"></div>
+
+</div>
+<div class="progress-text">0% Complete</div>
+</div>
+
+<script src = "main.js"></script>
+</body>
+</html>
